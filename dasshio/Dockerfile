@@ -25,15 +25,15 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="Dani Manzaneque <danimanzaneque@gmail.com>" \
+    maintainer="zaphod2010" \
     org.label-schema.description="Easy integration of Amazon Dash buttons with Home Assistant instance" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="dasshio" \
     org.label-schema.schema-version="1.0" \
     org.label-schema.url="https://community.home-assistant.io/t/dasshio-amazon-dash-buttons-hass-io-add-on" \
-    org.label-schema.usage="https://github.com/danimtb/dasshio/tree/master/README.md" \
+    org.label-schema.usage="https://github.com/zaphod2010/dasshio/tree/master/README.md" \
     org.label-schema.vcs-ref=${BUILD_REF} \
-    org.label-schema.vcs-url="https://github.com/danimtb/dasshio" \
+    org.label-schema.vcs-url="https://github.com/zaphod2010/dasshio" \
     org.label-schema.vendor="Dash Hass.io Add-on"
 
 RUN chmod a+x /dasshio.py
